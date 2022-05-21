@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>web_application</title>
+    <link rel="stylesheet" href={% static 'Css/style.css' %}>
+
+
+</head>
+<body>
+<h1>this is my first Html page in Django server...!</h1>
+
+<h2>{{msg}}</h2>
+
+<h2>{{date}}</h2>
+
+<img src="{%  static 'image/pm.png'%}" alt="Pm pic" style="width:500px;height:600px;">
+</body>
+</html>
